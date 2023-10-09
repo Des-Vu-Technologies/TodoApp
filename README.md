@@ -55,6 +55,8 @@ If you are the top contributor, you will have the opportunity to redeem your wel
 
 Please make sure to review our [Terms and Conditions](terms-and-conditions.md) for detailed information about eligibility, PR guidelines, rewards, and other important policies specific to the Hacktoberfest event.
 
+## Results
+You can find the leaderboard showing Top contributers [here](https://hacktoberfestnepal2023.vercel.app/)
 ## Contact Us
 
 If you have any questions, concerns, or feedback regarding our Hacktoberfest event, please don't hesitate to [contact us](mailto:contact@desvutech.com). We're here to assist you and make your Hacktoberfest experience with Des Vu Technologies enjoyable and rewarding!
