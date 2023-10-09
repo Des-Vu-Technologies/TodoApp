@@ -1,4 +1,4 @@
-# Des Vu Technologies Swags and Rewards - Hacktoberfest Edition
+# Des Vu Technologies Swags and Rewards
 
 Welcome to Des Vu Technologies' Hacktoberfest event! We're thrilled to offer you the chance to earn exciting rewards for your open-source contributions. Below, you'll find all the information you need to participate and maximize your chances of winning.
 
