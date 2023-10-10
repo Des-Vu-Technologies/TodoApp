@@ -24,3 +24,4 @@
 
 // Call the fetchContributors function to load contributor data
 fetchContributors();
+
