@@ -41,7 +41,11 @@ To be eligible for rewards, please ensure that you meet the following criteria:
 5. Ensure your PRs follow the repository's contribution guidelines.
 6. Maintain open communication with the repository maintainers for any necessary updates or changes.
 
-At the end of the event, the student who has contributed the highest number of successful and original PRs to this repository that is displayed [here]() will be eligible for our awesome rewards.
+At the end of the event, the student who has contributed the highest number of successful and original PRs to this repository that is displayed [here](https://hacktoberfestnepal2023.vercel.app/) will be eligible for our awesome rewards.
+
+
+## Results
+You can find the leaderboard showing Top contributers [here](https://hacktoberfestnepal2023.vercel.app/)
 
 ## Reward Redemption
 
