@@ -27,7 +27,7 @@ h4{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 80px;
+    
 }
 
 
@@ -64,4 +64,14 @@ input{
     padding: 10px;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    
+    position: absolute;
+    display: grid;
+    left: 10%;
+    /* justify-content: center; */
+    width: 100%;
+    padding-top: 40px;
 }
