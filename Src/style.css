@@ -1,0 +1,67 @@
+.contributor {
+    display: inline-block;
+    margin: 10px;
+}
+.contributor img {
+    max-width: 60px;
+    border-radius: 50%;
+    max-height: 60px;
+}
+
+.Constributer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+
+    }
+
+h4{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 80px;
+}
+
+
+.todo-grid{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    grid-gap: 10px;
+    align-items:center;
+}
+
+.addBtn, .deltBtn{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.deltBtn{
+    background-color: darkred;
+}
+:hover.addBtn{
+    background-color: rgb(2, 76, 2);
+}
+:hover.deltBtn{
+    background-color: rgb(106, 2, 2);
+}
+input{
+    padding: 10px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
