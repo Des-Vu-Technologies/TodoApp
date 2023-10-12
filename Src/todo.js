@@ -31,6 +31,14 @@ function renderTodo(){
         const inputDate = document.querySelector('.js-dueDate');
         let name = inputData.value;
         let dueDate = inputDate.value;
+
+        
+
+        if (name === '' || dueDate === ''){
+            alert('Enter valid todoName and Date. !!');
+            console.log( typeof dueDate);
+        }
+        else{
         TodoList.push(
         {//name:name, 
         //dueDate:dueDate  
@@ -40,9 +48,11 @@ function renderTodo(){
         renderTodo();
         inputData.value = '';
         inputDate.value='';
-       
-        console.log(TodoList);
+        console.log(TodoList);}
         
     };
+
+
+
     
     
