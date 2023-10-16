@@ -40,6 +40,7 @@ body{
     display: grid;
     grid-template-columns: 200px 150px 100px;
     grid-gap: 10px;
+    margin-bottom: 7px;
 }
 
 .addBtn, .deltBtn{
