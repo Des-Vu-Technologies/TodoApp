@@ -12,19 +12,24 @@ function renderTodo(){
         // const {dueDate} = todo;
         const {name, dueDate} = todoObj;
 
-        const html = `<div class="todo-grid"><div>${name} </div><div>${dueDate}</div>
-        
-        <button class="deltBtn" onclick="
-
-        TodoList.splice(${i},1); renderTodo();
-
-        ">Delete</button></div>`;
+        const html = `
+        <div class="todo-grid">
+        <div>${name} </div>
+        <div>${dueDate}</div>
+       <button class="deltBtn" onclick="confirmDelete(${i})">Delete</button></div>`;
         totalList += html;
         
     }
     document.querySelector('.js-todoList').innerHTML = totalList;
     };
-
+    
+    function confirmDelete(index) {
+      const confirmation = confirm("Are you sure you want to delete this todo?");
+      if (confirmation) {
+        TodoList.splice(index, 1);
+        renderTodo();
+      }
+    }
 
     function addInput(){
         const inputData = document.querySelector('.js-input');
@@ -50,9 +55,4 @@ function renderTodo(){
         inputDate.value='';
         console.log(TodoList);}
         
-    };
-
-
-
-    
-    
+    };   

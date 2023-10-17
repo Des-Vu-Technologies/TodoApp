@@ -21,22 +21,26 @@ h4{
     margin-left: 20px;
     margin-bottom: 0px;
 }
-
-
-
-
 body{
+    background-image: url(background.jpg);
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     
+    
+}
+.container h3{
+   text-align: center;
+   text-decoration: underline;
+}
+.container{
+    justify-content: center;
 }
 
-
 .todo-grid{
-    margin-bottom: 10px;
     display: grid;
     grid-template-columns: 200px 150px 100px;
     grid-gap: 10px;
-    align-items:center;
+    margin-bottom: 7px;
 }
 
 .addBtn, .deltBtn{
@@ -44,11 +48,11 @@ body{
     color: white;
     border: none;
     width: 100px;
-    padding: 14px;
+    height: 50px;
+    padding: 10px;
     font-size: 15px;
-    border-radius: 2px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-left: 10px;
 }
 
 .deltBtn{
@@ -66,12 +70,12 @@ input{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    
-    position: absolute;
+.container{    
     display: grid;
-    left: 10%;
-    /* justify-content: center; */
     width: 100%;
-    padding-top: 40px;
 }
+.input-date,.innput-name{
+    height: 26px;
+    border-radius: 5px ;
+}
+
