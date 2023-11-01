@@ -38,15 +38,15 @@ body{
 
 .todo-grid{
     display: grid;
-    grid-template-columns: 200px 150px 100px;
-    grid-gap: 10px;
+    grid-template-columns: 200px 150px 100px 100px;
+    grid-gap: 15px;
     margin-bottom: 7px;
 }
 
 .addBtn, .deltBtn{
     background-color: darkgreen;
     color: white;
-    border: none;
+    border: 2px solid rgb(52, 27, 27);
     width: 100px;
     height: 50px;
     padding: 10px;
@@ -77,5 +77,15 @@ input{
 .input-date,.innput-name{
     height: 26px;
     border-radius: 5px ;
+    cursor: pointer;
+}
+.input_prio{
+    height: 49px;
+    border: 2px solid rgb(52, 27, 27);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(189, 121, 156);
+    text-align: center;
+    font-size: 1rem;
 }
 
