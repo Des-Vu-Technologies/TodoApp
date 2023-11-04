@@ -36,7 +36,11 @@ function addInput() {
   let priority = prioritySelect.value;
 
   if (name === '' || dueDate === '' || priority === 'default') {
-    alert('Enter a valid todo name, date, and select a priority.');
+    Toastify({
+      text: "Enter a valid todo name, date, and select a priority.", 
+      duration: 2000,
+      position:"center" 
+      }).showToast();
   } else {
     TodoList.push({
       name,
